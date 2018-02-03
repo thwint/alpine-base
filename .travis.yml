@@ -1,0 +1,11 @@
+sudo: required
+
+services:
+  - docker
+
+env:
+  global:
+    - ORG_NAME: thwint
+    - IMAGE_NAME: alpine-base
+install:
+  - docker build -t "${ORG_NAME}/${IMAGE_NAME}" .

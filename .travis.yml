@@ -7,5 +7,6 @@ env:
   global:
     - ORG_NAME: thwint
     - IMAGE_NAME: alpine-base
-install:
+
+script:
   - docker build -t "${ORG_NAME}/${IMAGE_NAME}" .

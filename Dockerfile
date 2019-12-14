@@ -1,4 +1,4 @@
-FROM alpine:3.8
+FROM alpine:3.10
 
 LABEL maintainer="Tom Winterhalder <tom.winterhalder@gmail.com>"
 
